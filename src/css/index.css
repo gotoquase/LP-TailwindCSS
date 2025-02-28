@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+.body {
+    @apply block bg-black text-white;
+}
+
+#header {
+    @apply flex flex-row items-center justify-between p-5 m-5;
+}
+
+.logo {
+    @apply w-18 sm:w-24 md:w-32 lg:w-36;
+}
+
+.div-icon {
+    @apply flex flex-nowrap items-center justify-center;
+}
+
+.icon {
+    @apply p-2 m-0.5 w-10 sm:w-12 md:w-14 lg:w-15;
+}
+
+.btn-standard {
+    @apply rounded-full border-2 bg-black px-7 py-3 font-bold text-white hover:bg-white hover:text-black cursor-pointer;
+}
+
+.section {
+    @apply flex flex-col p-4 m-4;
+}
+
+.div-standard {
+    @apply p-2 flex flex-col justify-center items-center;
+}
+
+#hero h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-bold p-2;
+}
+
+#about {
+    @apply items-center justify-center;
+}
+
+#about p {
+    @apply text-center pl-10 pr-10;
+}
+
+#about-2 h6 {
+    @apply text-2xl text-center md:text-left font-bold pb-5 m-4;
+}
+
+#about-2 p {
+    @apply text-center md:text-left m-4;
+}
+.div-standard-img {
+    @apply flex flex-col md:flex-row justify-center items-center pb-10;
+}
+
+.item-div-img {
+    @apply items-center m-1.5;
+}
+
+.div-divisor {
+    @apply flex-1 p-2 text-center items-center;
+}
+
+#about-3 h6 {
+    @apply text-3xl text-center font-bold pb-4;
+}
+
+#about-3 h2 {
+    @apply text-3xl text-center font-bold p-2;
+}
+
+.p-initial {
+    @apply text-center ml-12 mr-12;
+}
+
+.p-form {
+    @apply text-center md:text-left m-4;
+}
+
+.img-space {
+    @apply pt-10 pb-10;
+}
+
+.form-standard {
+    @apply flex flex-col m-4;
+}
+
+.form-standard input {
+    @apply p-2 m-2 border-1 w-full;
+}
+
+.div-divisor-form {
+    @apply flex flex-col md:flex-row justify-center items-center;
+}
+
+.section-inherit{
+    @apply flex flex-col;
+}
+
+#about-4 h6 {
+    @apply text-3xl text-center font-bold pb-4;
+}
+
+#about-4 {
+    @apply bg-cover bg-center text-black;
+}
+
+#about-4 button {
+    @apply rounded-full px-7 py-3 border-2 bg-transparent border-black text-black hover:bg-white cursor-pointer font-bold p-2 m-2;
+}
+
+.div-space {
+    @apply pt-10 pb-10;
+}
+
+#footer {
+    @apply flex flex-row items-center justify-between p-5 m-5;
+}
