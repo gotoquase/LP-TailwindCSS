@@ -1,7 +1,12 @@
 import { defineConfig } from "vite";
 import tailwindcss from "@tailwindcss/vite";
+
 export default defineConfig({
+    base: '/LP-TailwindCSS/',
     plugins: [tailwindcss(), hmr()],
+    build: {
+        outDir: 'dist',
+    },
 });
 
 function hmr() {

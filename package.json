@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,8 @@
     "postcss": "^8.5.3",
     "prettier": "^3.5.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "vite": "^6.1.1"
+    "vite": "^6.1.1",
+    "gh-pages": "^3.2.3"
   },
   "dependencies": {
     "postcss-cli": "^11.0.0"
